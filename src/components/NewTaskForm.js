@@ -13,7 +13,7 @@ function CatFoo (e) {
 }
 
 function Submitter (e) {
-  e.preventDefault
+  e.preventDefault()
   onTaskFormSubmit({
     text: newTasks,
     category: newCats
